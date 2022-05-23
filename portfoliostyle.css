@@ -121,9 +121,15 @@ nav .burger i{
 .container{
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 140px;
+}
+
+
+.wrapper2{
+  display: flex;
 }
 
 .container1{
@@ -239,7 +245,6 @@ p.introtext{
   background: rgba(88, 75, 79, 0.5);
   bottom: 0px;
   color: #EED9B7;
-  position: absolute;
   display: flex;
   justify-content: space-between;
   border: 12px solid rgba(0,0,0,0);
